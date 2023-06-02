@@ -8,7 +8,7 @@ export const Child = ({value, handleItemChange, onSubmit}) => {
     <div className='section'>
       <h2>Welcome to React JS for beginners course.</h2>
       <h3>Please enter your name.</h3>
-      <input className='input' onChange={(e) => handleItemChange(e.target.value)} />
+      <input className='input' onChange={(e) => handleItemChange(e.target.value)} value={value} />
       <button onClick={onSubmit}>Submit</button>
     </div>
     </>
