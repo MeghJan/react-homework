@@ -13,11 +13,11 @@ export const Parent = () => {
   };
 
   return (
-    <>
+
       <Child value= {value} 
            handleItemChange= {(value) => {handleChange(value)}} 
            onSubmit={onSubmit}
       />
-    </>
+  
   )
 }
